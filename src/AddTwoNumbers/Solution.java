@@ -73,7 +73,12 @@ public class Solution {
 		 l2=l2.next;
 		 
 		 Solution.ListNode resultList=test.addTwoNumbers(l11,l22);
-		 System.out.println(resultList.val+" "+resultList.next.val+" "+resultList.next.next.val);
+		 Solution.ListNode rr=resultList;
+		 while(rr!=null){
+			 System.out.print(rr.val+" ");
+			 rr=rr.next;
+		 }
+			 
 		 
 	 }
 	 
