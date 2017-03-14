@@ -63,8 +63,6 @@ public class Solution {
 		
     }
 	
-  
-	
 	public static void main(String[] args){
 		int[] A={-2147483648,-2147483648};
 		int sum=maxRotateFunction(A);
